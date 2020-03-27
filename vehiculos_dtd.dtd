@@ -1,0 +1,27 @@
+<!DOCTYPE Vehiculos [
+   <!ELEMENT Vehiculos (Turismo,Camion)>
+<!ELEMENT Turismo(Matricula,NumeroBastidor,Color,NumeroDeAsientos,Precio,Serie,NumeroDePuertas,CapacidadDeMaleteroDm3,Marca,AnioFabricacion)>
+  <!ELEMENT Matricula (#PCDATA)>
+  <!ELEMENT NumeroBastidor (#PCDATA)>
+  <!ELEMENT Color (#PCDATA)>
+  <!ELEMENT NumeroDeAsientos (#PCDATA)>
+  <!ELEMENT Precio (#PCDATA)>
+  <!ELEMENT Serie (#PCDATA)>
+  <!ELEMENT CapacidadDeMaleteroDm3 (#PCDATA)>
+  <!ELEMENT Marca (#PCDATA)>
+  <!ELEMENT AnioFabricacion (#PCDATA)>
+  
+  <!ELEMENT Camion(Matricula,NumeroBastidor,Color,NumeroDeAsientos,Precio,Serie,CargaEnKg,TipoMercancia,Marca,Modelo.AnioFabricacion)>
+  <!ELEMENT Matricula (#PCDATA)>
+  <!ELEMENT NumeroBastidor (#PCDATA)>
+  <!ELEMENT Color (#PCDATA)>
+  <!ELEMENT NumeroDeAsientos (#PCDATA)>
+  <!ELEMENT Precio (#PCDATA)>
+  <!ELEMENT Serie (#PCDATA)>
+  <!ELEMENT CargaEnKg (#PCDATA)>
+  <!ELEMENT TipoMercancia (#PCDATA)>
+  <!ELEMENT Marca (#PCDATA)>
+  <!ELEMENT Modelo (#PCDATA)>
+  <!ELEMENT AnioFabricacion (#PCDATA)>
+
+]>
